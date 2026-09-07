@@ -1,6 +1,6 @@
 import { jsPDF } from "jspdf";
 import JsBarcode from "jsbarcode";
-import { PAGE, STATIC_TEXT, SECTIONS, CATALOG_COLUMNS } from "@/app/lib/layout";
+import { PAGE, STATIC_TEXT, SECTIONS, CATALOG_COLUMNS } from "./layout";
 
 export function generateLabelPdf({
   ingredients,

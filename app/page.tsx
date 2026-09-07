@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import JsBarcode from "jsbarcode";
 import LabelPreview from "@/components/LabelPreview";
-import { generateLabelPdf } from "@/app/lib/pdf";
-import { PRODUCT_PRESETS, ProductPreset } from "@/app/lib/productsData";
+import { generateLabelPdf } from "../lib/pdf";
+import { PRODUCT_PRESETS, ProductPreset } from "../lib/productsData";
 
 export default function Home() {
   // Master states

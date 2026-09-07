@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { STATIC_TEXT, CATALOG_COLUMNS } from "@/app/lib/layout";
+import { STATIC_TEXT, CATALOG_COLUMNS } from "../lib/layout";
 
 export default function LabelPreview({
   ingredients,
