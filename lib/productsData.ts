@@ -1171,11 +1171,11 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
   },
 
   {
-    id: "baajra-flour-1kg",
+    id: "bajra-flour-1kg",
 
-    displayName: "Baajra Flour",
+    displayName: "Bajra Flour",
 
-    ingredients: ["Baajra (pearl millet)"],
+    ingredients: ["Bajra (pearl millet)"],
 
     netWt: "1 KG",
 
@@ -1183,15 +1183,15 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     barcode: "116134536925",
 
-    fileName: "baajra-flour-1kg"
+    fileName: "bajra-flour-1kg"
   },
 
   {
-    id: "jawaar-flour-1kg",
+    id: "jawar-flour-1kg",
 
-    displayName: "Jawaar Flour",
+    displayName: "Jawar Flour",
 
-    ingredients: ["Jawaar (sorghum seeds)"],
+    ingredients: ["Jawar (sorghum seeds)"],
 
     netWt: "1 KG",
 
@@ -1199,7 +1199,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     barcode: "328495172674",
 
-    fileName: "jawaar-flour-1kg"
+    fileName: "jawar-flour-1kg"
   },
 
   {
