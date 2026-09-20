@@ -1168,6 +1168,88 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
     barcode: "631067421701",
 
     fileName: "wild_turmerickasturi_manjal_100gms"
-  }
+  },
+
+  {
+    id: "baajra-flour-1kg",
+
+    displayName: "Baajra Flour",
+
+    ingredients: ["Baajra (pearl millet)"],
+
+    netWt: "1 KG",
+
+    mrp: "120/-",
+
+    barcode: "116134536925",
+
+    fileName: "baajra-flour-1kg"
+  },
+
+  {
+    id: "jawaar-flour-1kg",
+
+    displayName: "Jawaar Flour",
+
+    ingredients: ["Jawaar (sorghum seeds)"],
+
+    netWt: "1 KG",
+
+    mrp: "130/-",
+
+    barcode: "328495172674",
+
+    fileName: "jawaar-flour-1kg"
+  },
+
+  {
+    id: "makkai-flour-1kg",
+
+    displayName: "Makkai Flour",
+
+    ingredients: ["Makkai (maize)"],
+
+    netWt: "1 KG",
+
+    mrp: "110/-",
+
+    barcode: "900709158327",
+
+    fileName: "makkai-flour-1kg"
+  },
+
+  {
+    id: "barley-flour-1kg",
+
+    displayName: "Barley Flour",
+
+    ingredients: ["Barley"],
+
+    netWt: "1 KG",
+
+    mrp: "135/-",
+
+    barcode: "172552802071",
+
+    fileName: "barley-flour-1kg"
+  },
+
+  {
+    id: "wheat-flour-1kg",
+
+    displayName: "Wheat Flour",
+
+    ingredients: ["Wheat"],
+
+    netWt: "1 KG",
+
+    mrp: "80/-",
+
+    barcode: "597591267169",
+
+    fileName: "wheat-flour-1kg"
+  },
+
+
 
 ];
