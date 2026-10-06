@@ -1250,6 +1250,22 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
     fileName: "wheat-flour-1kg"
   },
 
+  {
+    id: "multigrain-flour-1kg",
+
+    displayName: "Multigrain Flour",
+
+    ingredients: ["Wheat, Bajra, Jawar, Barley, Flax seeds, Maize"],
+
+    netWt: "1 KG",
+
+    mrp: "130/-",
+
+    barcode: "720537308723",
+
+    fileName: "multigrain-flour-1kg"
+  },
+
 
 
 ];
