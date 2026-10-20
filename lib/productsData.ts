@@ -891,11 +891,27 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "100 g",
 
-    mrp: "40/-",
+    mrp: "55/-",
 
     barcode: "24854118400",
 
     fileName: "red_chilli_powder_100gms"
+  },
+
+  {
+    id: "red-chilli-powder-250gms",
+
+    displayName: "Red Chilli Powder 250GMS",
+
+    ingredients: ["100% Pure Red Chilli Powder"],
+
+    netWt: "250 g",
+
+    mrp: "135/-",
+
+    barcode: "334295865806",
+
+    fileName: "red_chilli_powder_250gms"
   },
 
   {
@@ -907,7 +923,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "500 g",
 
-    mrp: "185/-",
+    mrp: "265/-",
 
     barcode: "403538980652",
 
@@ -1051,7 +1067,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "1000 g",
 
-    mrp: "300/-",
+    mrp: "415/-",
 
     barcode: "782251584016",
 
@@ -1067,7 +1083,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "100 g",
 
-    mrp: "38/-",
+    mrp: "50/-",
 
     barcode: "237747369561",
 
@@ -1115,7 +1131,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "250 g",
 
-    mrp: "85/-",
+    mrp: "115/-",
 
     barcode: "262051555309",
 
@@ -1131,7 +1147,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "500 g",
 
-    mrp: "150/-",
+    mrp: "210/-",
 
     barcode: "3123912639",
 
