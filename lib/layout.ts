@@ -16,7 +16,8 @@ export const SECTIONS = {
   brand: 0.60,
   ruleY: 0.72,
   companyInfo: 0.88,
-  ingredients: 1.22,               // Left-aligned dynamic baseline hook
+  itemName: 1.22, 
+  ingredients: 1.40,               // Left-aligned dynamic baseline hook
   ingredientsLineHeight: 0.14,
   ingredientsToCatalogGap: 0.22,  // Balanced padding layout window
   footerRuleY: 4.52,

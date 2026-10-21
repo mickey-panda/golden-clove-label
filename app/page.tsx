@@ -14,6 +14,7 @@ export default function Home() {
   const [mrp, setMrp] = useState("85/-");
   const [barcodeNumber, setBarcodeNumber] = useState("262051555309");
   const [fileName, setFileName] = useState("golden-clove-label");
+  const [itemName, setItemName] = useState("Turmeric Powder 1000GMS");
   
   const [barcodePreview, setBarcodePreview] = useState<string | null>(null);
   const [pdfDoc, setPdfDoc] = useState<ReturnType<typeof generateLabelPdf> | null>(null);
@@ -31,6 +32,7 @@ export default function Home() {
       setBarcodeNumber(targetPreset.barcode);
       setFileName(targetPreset.fileName);
       updateBarcodePreview(targetPreset.barcode);
+      setItemName(targetPreset.displayName);
     }
   };
 
@@ -79,6 +81,7 @@ export default function Home() {
       netWt,
       mrp,
       barcodeNumber,
+      itemName,
     });
     setPdfDoc(doc);
   };

@@ -7,11 +7,13 @@ export function generateLabelPdf({
   netWt,
   mrp,
   barcodeNumber,
+  itemName,
 }: {
   ingredients: string;
   netWt: string;
   mrp: string;
   barcodeNumber: string;
+  itemName: string;
 }) {
   const doc = new jsPDF({ orientation: "portrait", unit: "in", format: [PAGE.w, PAGE.h] });
   const centerX = PAGE.w / 2;
@@ -33,6 +35,12 @@ export function generateLabelPdf({
   doc.setFont("helvetica", "normal");
   doc.setFontSize(8.5);
   doc.text(STATIC_TEXT.companyInfo, centerX, SECTIONS.companyInfo, { align: "center" });
+
+  //Name of the item
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(8);
+  doc.text(itemName, centerX, SECTIONS.itemName, { align: "center" });
+
 
   // 3. TWO-STAGE TEXT WRAP MATRIX (FIXES THE HORIZONTAL OVERLAPPING)
   doc.setFontSize(9.5);
