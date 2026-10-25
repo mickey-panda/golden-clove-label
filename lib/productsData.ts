@@ -875,7 +875,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "250 g",
 
-    mrp: "175/-",
+    mrp: "270/-",
 
     barcode: "656623526114",
 
@@ -1291,7 +1291,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "1 KG",
 
-    mrp: "130/-",
+    mrp: "140/-",
 
     barcode: "380917914756",
 
