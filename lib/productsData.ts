@@ -1298,5 +1298,21 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
     fileName: "multigrain-flour-with-soya-1kg"
   },
 
+  {
+    id: "ragi-flour-1kg",
+
+    displayName: "Ragi Flour",
+
+    ingredients: ["100% Ragi"],
+
+    netWt: "1 KG",
+
+    mrp: "90/-",
+
+    barcode: "710698642208",
+
+    fileName: "ragi-flour-1kg"
+  },
+
 
 ];
