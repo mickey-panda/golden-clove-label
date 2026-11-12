@@ -27,11 +27,27 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     netWt: "250 g",
 
-    mrp: "90/-",
+    mrp: "135/-",
 
     barcode: "517551946355",
 
     fileName: "basil_seeds_sabja_250_grams"
+  },
+
+  {
+    id: "soyabean-seeds-500-grams",
+
+    displayName: "Soyabean Seeds 500 Grams",
+
+    ingredients: ["Soyabean Seeds"],
+
+    netWt: "500 g",
+
+    mrp: "90/-",
+
+    barcode: "712376279535",
+
+    fileName: "soyabean_seeds_500_grams"
   },
 
   {
