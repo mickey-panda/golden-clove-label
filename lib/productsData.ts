@@ -1283,6 +1283,22 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
   },
 
   {
+    id: "wheat-flour-5kg",
+
+    displayName: "Wheat Flour",
+
+    ingredients: ["Wheat"],
+
+    netWt: "5 KG",
+
+    mrp: "370/-",
+
+    barcode: "320094939219",
+
+    fileName: "wheat-flour-5kg"
+  },
+
+  {
     id: "multigrain-flour-1kg",
 
     displayName: "Multigrain Flour",
@@ -1296,6 +1312,22 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
     barcode: "720537308723",
 
     fileName: "multigrain-flour-1kg"
+  },
+
+  {
+    id: "multigrain-flour-5kg",
+
+    displayName: "Multigrain Flour",
+
+    ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Flax seeds(6.25%), Maize(6.25%)"],
+
+    netWt: "5 KG",
+
+    mrp: "550/-",
+
+    barcode: "642410662206",
+
+    fileName: "multigrain-flour-5kg"
   },
 
   {
@@ -1315,6 +1347,22 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
   },
 
   {
+    id: "multigrain-flour-with-soya-5kg",
+
+    displayName: "Multigrain Flour with Soyabean",
+
+    ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Soya(12.5%)"],
+
+    netWt: "5 KG",
+
+    mrp: "600/-",
+
+    barcode: "663114474071",
+
+    fileName: "multigrain-flour-with-soya-5kg"
+  },
+
+  {
     id: "ragi-flour-1kg",
 
     displayName: "Ragi Flour",
@@ -1330,5 +1378,20 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
     fileName: "ragi-flour-1kg"
   },
 
+  {
+    id: "soyabean-flour-500gm",
+
+    displayName: "Soyabean Flour",
+
+    ingredients: ["Soyabean seeds flour"],
+
+    netWt: "500 g",
+
+    mrp: "100/-",
+
+    barcode: "387936670712",
+
+    fileName: "soyabean-flour-500gm"
+  },
 
 ];
