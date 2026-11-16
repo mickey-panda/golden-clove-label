@@ -1285,7 +1285,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
   {
     id: "wheat-flour-5kg",
 
-    displayName: "Wheat Flour",
+    displayName: "Wheat Flour (5KG)",
 
     ingredients: ["Wheat"],
 
@@ -1317,7 +1317,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
   {
     id: "multigrain-flour-5kg",
 
-    displayName: "Multigrain Flour",
+    displayName: "Multigrain Flour (5KG)",
 
     ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Flax seeds(6.25%), Maize(6.25%)"],
 
@@ -1349,7 +1349,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
   {
     id: "multigrain-flour-with-soya-5kg",
 
-    displayName: "Multigrain Flour with Soyabean",
+    displayName: "Multigrain Flour with Soyabean (5KG)",
 
     ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Soya(12.5%)"],
 
