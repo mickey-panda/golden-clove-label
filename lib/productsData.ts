@@ -1303,7 +1303,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     displayName: "Multigrain Flour",
 
-    ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Flax seeds(6.25%), Maize(6.25%)"],
+    ingredients: ["Wheat(50%), Bajra, Jawar, Barley, Flax seeds, Maize"],
 
     netWt: "1 KG",
 
@@ -1319,7 +1319,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     displayName: "Multigrain Flour (5KG)",
 
-    ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Flax seeds(6.25%), Maize(6.25%)"],
+    ingredients: ["Wheat(50%), Bajra, Jawar, Barley, Flax seeds, Maize"],
 
     netWt: "5 KG",
 
@@ -1335,7 +1335,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     displayName: "Multigrain Flour with Soyabean",
 
-    ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Soya(12.5%)"],
+    ingredients: ["Wheat(50%), Bajra, Jawar, Barley, Soya"],
 
     netWt: "1 KG",
 
@@ -1351,7 +1351,7 @@ export const PRODUCT_PRESETS: ProductPreset[] = [
 
     displayName: "Multigrain Flour with Soyabean (5KG)",
 
-    ingredients: ["Wheat(50%), Bajra(12.5%), Jawar(12.5%), Barley(12.5%), Soya(12.5%)"],
+    ingredients: ["Wheat(50%), Bajra, Jawar, Barley, Soya"],
 
     netWt: "5 KG",
 
